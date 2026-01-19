@@ -1,98 +1,122 @@
 [
     {
         "name": "ReactJS",
-        "icon": "https://img.icons8.com/external-tal-revivo-color-tal-revivo/48/000000/external-react-a-javascript-library-for-building-user-interfaces-logo-color-tal-revivo.png"
+        "icon": "https://img.icons8.com/external-tal-revivo-color-tal-revivo/48/000000/external-react-a-javascript-library-for-building-user-interfaces-logo-color-tal-revivo.png",
+        "category": "frontend"
     },
     {
         "name": "NodeJS",
-        "icon": "https://img.icons8.com/color/48/000000/nodejs.png"
+        "icon": "https://img.icons8.com/color/48/000000/nodejs.png",
+        "category": "backend"
     },
     {
         "name": "Java",
-        "icon": "https://img.icons8.com/color/48/000000/java-coffee-cup-logo--v1.png"
+        "icon": "https://img.icons8.com/color/48/000000/java-coffee-cup-logo--v1.png",
+        "category": "language"
     },
     {
         "name": "Spring Boot",
-        "icon": "https://img.icons8.com/?size=48&id=90519&format=png"
+        "icon": "https://img.icons8.com/?size=48&id=90519&format=png",
+        "category": "backend"
     },
     {
         "name": "NextJS",
-        "icon": "https://img.icons8.com/fluency/48/000000/nextjs.png"
+        "icon": "https://img.icons8.com/fluency/48/000000/nextjs.png",
+        "category": "frontend"
     },
     {
         "name": "Angular",
-        "icon": "https://img.icons8.com/fluency/48/000000/angularjs.png"
+        "icon": "https://img.icons8.com/fluency/48/000000/angularjs.png",
+        "category": "frontend"
     },
     {
         "name": "Python",
-        "icon": "https://img.icons8.com/color/48/000000/python--v1.png"
+        "icon": "https://img.icons8.com/color/48/000000/python--v1.png",
+        "category": "language"
     },
     {
         "name": "MySQL",
-        "icon": "https://img.icons8.com/fluency/48/000000/mysql.png"
+        "icon": "https://img.icons8.com/fluency/48/000000/mysql.png",
+        "category": "database"
     },
     {
         "name": "MongoDB",
-        "icon": "https://img.icons8.com/?size=48&id=bosfpvRzNOG8&format=png"
+        "icon": "https://img.icons8.com/?size=48&id=bosfpvRzNOG8&format=png",
+        "category": "database"
     },
     {
         "name": "HTML5",
-        "icon": "https://img.icons8.com/color/48/000000/html-5--v1.png"
+        "icon": "https://img.icons8.com/color/48/000000/html-5--v1.png",
+        "category": "frontend"
     },
     {
         "name": "CSS3",
-        "icon": "https://img.icons8.com/color/48/000000/css3.png"
+        "icon": "https://img.icons8.com/color/48/000000/css3.png",
+        "category": "frontend"
     },
     {
         "name": "JavaScript",
-        "icon": "https://img.icons8.com/color/48/000000/javascript--v1.png"
+        "icon": "https://img.icons8.com/color/48/000000/javascript--v1.png",
+        "category": "language"
     },
     {
         "name": "PHP",
-        "icon": "https://img.icons8.com/offices/48/000000/php-logo.png"
+        "icon": "https://img.icons8.com/offices/48/000000/php-logo.png",
+        "category": "backend"
     },
     {
         "name": "Rest API",
-        "icon": "https://img.icons8.com/?size=48&id=21895&format=png"
+        "icon": "https://img.icons8.com/?size=48&id=21895&format=png",
+        "category": "backend"
     },
     {
         "name": "MaterialUI",
-        "icon": "https://img.icons8.com/color/48/000000/material-ui.png"
+        "icon": "https://img.icons8.com/color/48/000000/material-ui.png",
+        "category": "frontend"
     },
     {
         "name": "Bootstrap",
-        "icon": "https://img.icons8.com/color/48/000000/bootstrap.png"
+        "icon": "https://img.icons8.com/color/48/000000/bootstrap.png",
+        "category": "frontend"
     },
     {
         "name": "C",
-        "icon": "https://img.icons8.com/?size=48&id=40670&format=png"
+        "icon": "https://img.icons8.com/?size=48&id=40670&format=png",
+        "category": "language"
     },
     {
         "name": "C++",
-        "icon": "https://img.icons8.com/color/48/000000/c-plus-plus-logo.png"
+        "icon": "https://img.icons8.com/color/48/000000/c-plus-plus-logo.png",
+        "category": "language"
     },
     {
         "name": "C#",
-        "icon": "https://img.icons8.com/color/48/000000/c-sharp-logo.png"
+        "icon": "https://img.icons8.com/color/48/000000/c-sharp-logo.png",
+        "category": "language"
     },
     {
         "name": "JSON",
-        "icon": "https://img.icons8.com/color/48/000000/json.png"
+        "icon": "https://img.icons8.com/color/48/000000/json.png",
+        "category": "data"
     },
     {
         "name": "jQuery",
-        "icon": "https://img.icons8.com/ios-filled/48/1169ae/jquery.png"
+        "icon": "https://img.icons8.com/ios-filled/48/1169ae/jquery.png",
+        "category": "frontend"
     },
     {
         "name": "Git VCS",
-        "icon": "https://img.icons8.com/color/48/000000/git.png"
+        "icon": "https://img.icons8.com/color/48/000000/git.png",
+        "category": "tools"
     },
     {
         "name": "GitHub",
-        "icon": "https://img.icons8.com/glyph-neue/48/ffffff/github.png"
+        "icon": "https://img.icons8.com/glyph-neue/48/ffffff/github.png",
+        "category": "tools"
     },
     {
         "name": "Postman",
-        "icon": "https://img.icons8.com/?size=48&id=kVzqFZ8zS2MB&format=png"
+        "icon": "https://img.icons8.com/?size=48&id=kVzqFZ8zS2MB&format=png",
+        "category": "tools"
     }
 ]
