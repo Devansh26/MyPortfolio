@@ -1454,3 +1454,173 @@ section {
         scroll-behavior: auto;
     }
 }
+
+/* ==========================================================================
+   16. Hero Stats Bar
+   ========================================================================== */
+.hero__stats {
+    display: flex;
+    gap: var(--space-xl);
+    margin-top: var(--space-lg);
+    margin-bottom: var(--space-md);
+}
+
+.hero__stat {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.2rem;
+}
+
+.hero__stat-number {
+    font-size: var(--text-2xl);
+    font-weight: 800;
+    color: var(--color-secondary);
+    line-height: 1;
+}
+
+.hero__stat-label {
+    font-size: var(--text-xs);
+    color: var(--color-gray-600);
+    font-weight: 600;
+    letter-spacing: 0.05rem;
+    text-transform: uppercase;
+}
+
+@media (max-width: 450px) {
+    .hero__stats {
+        gap: var(--space-lg);
+    }
+}
+
+/* ==========================================================================
+   17. Work Permit / Availability Badge
+   ========================================================================== */
+.about__badge {
+    display: inline-flex;
+    align-items: center;
+    gap: var(--space-xs);
+    background: linear-gradient(135deg, #e8f5e9, #c8e6c9);
+    color: #2e7d32;
+    padding: var(--space-sm) var(--space-md);
+    border-radius: 50px;
+    font-size: var(--text-sm);
+    font-weight: 700;
+    margin-top: var(--space-md);
+    border: 1px solid #a5d6a7;
+    text-transform: none;
+}
+
+.about__badge i {
+    color: #388e3c;
+    font-size: 1.6rem;
+}
+
+/* ==========================================================================
+   18. Tech Tag Pills
+   ========================================================================== */
+.tag {
+    display: inline-block;
+    padding: 0.3rem 1rem;
+    background: rgba(37, 6, 173, 0.08);
+    color: var(--color-primary);
+    border-radius: 50px;
+    font-size: 1.1rem;
+    font-weight: 600;
+    border: 1px solid rgba(37, 6, 173, 0.18);
+    white-space: nowrap;
+}
+
+.project-card__tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: var(--space-xs);
+    margin-bottom: var(--space-md);
+}
+
+/* ==========================================================================
+   19. Enhanced Timeline Components
+   ========================================================================== */
+.timeline__header {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: var(--space-xs);
+    margin-bottom: 0.4rem;
+}
+
+.timeline__current-badge {
+    display: inline-block;
+    background: #e8f5e9;
+    color: #2e7d32;
+    padding: 0.15rem 0.8rem;
+    border-radius: 50px;
+    font-size: 1.1rem;
+    font-weight: 700;
+    border: 1px solid #a5d6a7;
+    text-transform: uppercase;
+    letter-spacing: 0.05rem;
+}
+
+.timeline__location {
+    font-size: 1.2rem;
+    color: var(--color-gray-600);
+    font-family: var(--font-secondary);
+    margin: 0.3rem 0 0.4rem;
+    text-transform: none;
+}
+
+.timeline__location i {
+    margin-right: 0.3rem;
+    font-size: 1.1rem;
+}
+
+.timeline__desc {
+    font-size: 1.3rem;
+    color: var(--color-gray-600);
+    line-height: 1.65;
+    margin: var(--space-xs) 0 var(--space-sm);
+    text-transform: none;
+    font-family: var(--font-secondary);
+}
+
+.timeline__tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: var(--space-xs);
+    margin-top: var(--space-sm);
+}
+
+.timeline__tags .tag {
+    background: rgba(0, 0, 0, 0.07);
+    color: var(--color-gray-800);
+    border-color: rgba(0, 0, 0, 0.13);
+    font-size: 1rem;
+}
+
+/* Featured timeline item (current role) */
+.timeline__content--featured {
+    background: linear-gradient(135deg, #fff8e1, #ffe082);
+    border-left: 4px solid var(--color-secondary);
+}
+
+.timeline__content--featured .timeline__tags .tag {
+    background: rgba(0, 0, 0, 0.06);
+    color: #4a2800;
+    border-color: rgba(0, 0, 0, 0.12);
+}
+
+/* Featured project card */
+.project-card--featured {
+    border-top: 3px solid var(--color-secondary);
+}
+
+.project-card--featured .project-card__image {
+    background: linear-gradient(135deg, #4a00e0, #8e2de2);
+}
+
+@media (max-width: 768px) {
+    .timeline__desc {
+        font-size: 1.25rem;
+    }
+}

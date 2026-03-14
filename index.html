@@ -92,6 +92,21 @@
                     <i class="fas fa-arrow-circle-down" aria-hidden="true"></i>
                 </a>
 
+                <div class="hero__stats" aria-label="Key statistics">
+                    <div class="hero__stat">
+                        <span class="hero__stat-number">4+</span>
+                        <span class="hero__stat-label">Years Exp.</span>
+                    </div>
+                    <div class="hero__stat">
+                        <span class="hero__stat-number">15+</span>
+                        <span class="hero__stat-label">Projects</span>
+                    </div>
+                    <div class="hero__stat">
+                        <span class="hero__stat-number">5+</span>
+                        <span class="hero__stat-label">Companies</span>
+                    </div>
+                </div>
+
                 <ul class="social-links" aria-label="Social media links">
                     <li>
                         <a href="https://www.linkedin.com/in/devansh-shah-89941816a/" target="_blank"
@@ -144,22 +159,26 @@
                     <span class="about__role">Full Stack Developer</span>
 
                     <p class="about__bio">
-                        I am a Full-Stack developer based in Toronto, Canada.
-                        I am an Information Technology graduate from Mumbai University.
-                        I am very passionate about improving my coding skills & developing applications & websites.
-                        I build WebApps and Websites using Full Stack.
-                        Working for myself to improve my skills.
-                        Love to build Full-Stack Web Applications.
+                        Full Stack Developer with <strong>4+ years of experience</strong> building scalable, cloud-native distributed systems.
+                        Currently a Software Developer at <strong>NTT Data Payment Services</strong>, specializing in Java, Spring Boot,
+                        ReactJS, NextJS, NestJS, and AWS. Passionate about microservices architecture, clean code, and
+                        delivering measurable business impact. IT graduate from Mumbai University with a Post-Graduate Diploma
+                        in Full Stack Development from Lambton College, Toronto.
                     </p>
+
+                    <div class="about__badge">
+                        <i class="fas fa-check-circle" aria-hidden="true"></i>
+                        <span>Open Work Permit · Valid Until 2028 · No Sponsorship Required</span>
+                    </div>
 
                     <div class="about__info">
                         <div class="about__info-item">
                             <span class="label">Email:</span>
-                            <a href="mailto:devansh.9812@gmail.com">devansh.9812@gmail.com</a>
+                            <a href="mailto:devansh981226@gmail.com">devansh981226@gmail.com</a>
                         </div>
                         <div class="about__info-item">
                             <span class="label">Location:</span>
-                            <span>Toronto, Canada - M3J 1V6</span>
+                            <span>Toronto, Canada – M3J 1V6</span>
                         </div>
                     </div>
 
@@ -246,22 +265,25 @@
             </h2>
 
             <div class="projects__grid">
-                <!-- Project 1: DriveySync -->
-                <article class="project-card">
+
+                <!-- Project: Visagen -->
+                <article class="project-card project-card--featured">
                     <div class="project-card__image">
-                        <img src="https://thumbs.dreamstime.com/b/auto-repair-car-logo-design-concept-illustrator-vector-automotive-tuning-cars-template-isolated-white-transparency-158211392.jpg"
-                            alt="DriveySync Project">
+                        <img src="https://img.icons8.com/?size=100&id=aWXE0WgI8weT&format=png" alt="Visagen Project">
                     </div>
                     <div class="project-card__content">
-                        <span class="project-card__date">Sept 2024</span>
-                        <h3 class="project-card__title">DriveySync (Freelance)</h3>
+                        <span class="project-card__date">Dec 2024 – Mar 2025</span>
+                        <h3 class="project-card__title">Visagen (Freelance)</h3>
                         <p class="project-card__desc">
-                            A mobile app using React Native and Expo to connect users with service providers based on
-                            location.
-                            The app features real-time tracking and navigation via Google Maps, Google and Facebook
-                            authentication, and a responsive UI.
-                            State management and data persistence are handled by Redux and redux-persist.
+                            A <strong>multi-tenant SaaS immigration platform</strong> on AWS (ECS, S3). Built NestJS microservices, Next.js + React web app, cross-platform Flutter mobile app, AWS Cognito auth, and a Chrome Extension cutting form data-entry by 70%.
                         </p>
+                        <div class="project-card__tags">
+                            <span class="tag">NestJS</span>
+                            <span class="tag">Next.js</span>
+                            <span class="tag">Flutter</span>
+                            <span class="tag">AWS ECS/S3</span>
+                            <span class="tag">Cognito</span>
+                        </div>
                         <div class="project-card__links">
                             <a href="https://github.com/Devansh26" target="_blank" rel="noopener noreferrer"
                                 class="btn btn--gradient">
@@ -271,7 +293,87 @@
                     </div>
                 </article>
 
-                <!-- Project 2: Sneakerz -->
+                <!-- Project: DriveySync -->
+                <article class="project-card">
+                    <div class="project-card__image">
+                        <img src="https://thumbs.dreamstime.com/b/auto-repair-car-logo-design-concept-illustrator-vector-automotive-tuning-cars-template-isolated-white-transparency-158211392.jpg"
+                            alt="DriveySync Project">
+                    </div>
+                    <div class="project-card__content">
+                        <span class="project-card__date">Sept – Dec 2024</span>
+                        <h3 class="project-card__title">DriveySync (Freelance)</h3>
+                        <p class="project-card__desc">
+                            A <strong>React Native + Expo mobile app</strong> connecting users with nearby service providers via real-time Google Maps tracking. Google/Facebook OAuth authentication and Redux for state management.
+                        </p>
+                        <div class="project-card__tags">
+                            <span class="tag">React Native</span>
+                            <span class="tag">Expo</span>
+                            <span class="tag">Node.js</span>
+                            <span class="tag">Google Maps</span>
+                            <span class="tag">Redux</span>
+                        </div>
+                        <div class="project-card__links">
+                            <a href="https://github.com/Devansh26" target="_blank" rel="noopener noreferrer"
+                                class="btn btn--gradient">
+                                Read More
+                            </a>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- Project: WorkLifeBalance -->
+                <article class="project-card">
+                    <div class="project-card__image">
+                        <img src="https://img.icons8.com/?size=100&id=63307&format=png" alt="WorkLifeBalance Project">
+                    </div>
+                    <div class="project-card__content">
+                        <span class="project-card__date">Oct 2023</span>
+                        <h3 class="project-card__title">WorkLifeBalance (Freelance)</h3>
+                        <p class="project-card__desc">
+                            A <strong>full-stack productivity platform</strong> with Pomodoro-style timer, JWT authentication, motivational content module, and role-based Admin/User dashboards with secure REST API communication.
+                        </p>
+                        <div class="project-card__tags">
+                            <span class="tag">ReactJS</span>
+                            <span class="tag">Spring Boot</span>
+                            <span class="tag">JWT</span>
+                            <span class="tag">MySQL</span>
+                        </div>
+                        <div class="project-card__links">
+                            <a href="https://github.com/Devansh26" target="_blank" rel="noopener noreferrer"
+                                class="btn btn--gradient">
+                                Read More
+                            </a>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- Project: Sports Bar -->
+                <article class="project-card">
+                    <div class="project-card__image">
+                        <img src="https://img.icons8.com/?size=100&id=53409&format=png" alt="Sports Bar Project">
+                    </div>
+                    <div class="project-card__content">
+                        <span class="project-card__date">Feb 2023</span>
+                        <h3 class="project-card__title">Sports Bar – Live Menu (Freelance)</h3>
+                        <p class="project-card__desc">
+                            A responsive <strong>ReactJS digital menu app</strong> with Socket.io for real-time live pricing. RESTful APIs consumed via Axios for seamless dynamic menu updates improving customer transparency.
+                        </p>
+                        <div class="project-card__tags">
+                            <span class="tag">ReactJS</span>
+                            <span class="tag">Socket.io</span>
+                            <span class="tag">Axios</span>
+                            <span class="tag">REST API</span>
+                        </div>
+                        <div class="project-card__links">
+                            <a href="https://github.com/Devansh26" target="_blank" rel="noopener noreferrer"
+                                class="btn btn--gradient">
+                                Read More
+                            </a>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- Project: Sneakerz -->
                 <article class="project-card">
                     <div class="project-card__image">
                         <img src="https://wallpapercave.com/wp/wp4020919.jpg" alt="Sneakerz Project">
@@ -280,10 +382,14 @@
                         <span class="project-card__date">Feb 2023</span>
                         <h3 class="project-card__title">Sneakerz (College)</h3>
                         <p class="project-card__desc">
-                            A Web-based project as a part of web programming course to create a dynamic website by using
-                            different features
-                            like HTML/CSS, IndexDB and JavaScript.
+                            A dynamic sneaker website built as part of a web programming course featuring IndexedDB for client-side storage, a fully responsive UI, and interactive JavaScript features.
                         </p>
+                        <div class="project-card__tags">
+                            <span class="tag">HTML5</span>
+                            <span class="tag">CSS3</span>
+                            <span class="tag">JavaScript</span>
+                            <span class="tag">IndexedDB</span>
+                        </div>
                         <div class="project-card__links">
                             <a href="https://github.com/Devansh26/Sneakerzz" target="_blank" rel="noopener noreferrer"
                                 class="btn btn--gradient">
@@ -297,33 +403,7 @@
                     </div>
                 </article>
 
-                <!-- Project 3: Quizzer -->
-                <article class="project-card">
-                    <div class="project-card__image">
-                        <img src="https://media.istockphoto.com/id/1290210769/vector/quiz-time-neon-sign-style-text.jpg?s=612x612&w=0&k=20&c=pfeOdmUD4bYS-LZUuC0f1PDOMU2YNhngvzoUuHW20us="
-                            alt="Quizzer Project">
-                    </div>
-                    <div class="project-card__content">
-                        <span class="project-card__date">March 2023</span>
-                        <h3 class="project-card__title">Quizzer (College)</h3>
-                        <p class="project-card__desc">
-                            A Web-based project with Python and Flask to create a quiz by using different
-                            functionalities of Python.
-                        </p>
-                        <div class="project-card__links">
-                            <a href="https://github.com/dharmil18/Quizzer" target="_blank" rel="noopener noreferrer"
-                                class="btn btn--gradient">
-                                Read More
-                            </a>
-                            <a href="https://quizzer-eyowyvtep-dharmil18.vercel.app/login" target="_blank"
-                                rel="noopener noreferrer" class="btn btn--gradient">
-                                Preview
-                            </a>
-                        </div>
-                    </div>
-                </article>
-
-                <!-- Project 4: Sneaker Cart -->
+                <!-- Project: Sneaker Cart -->
                 <article class="project-card">
                     <div class="project-card__image">
                         <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTgKncMpRIr9zMpd2tFkZNysIAiAYaQY1CFUA&usqp=CAU"
@@ -333,9 +413,13 @@
                         <span class="project-card__date">Jan 2019</span>
                         <h3 class="project-card__title">Sneaker Cart (Freelance)</h3>
                         <p class="project-card__desc">
-                            A <strong>React based Freelance Project</strong> - designed and developed a responsive
-                            dashboard for inventory management.
+                            A <strong>React-based inventory dashboard</strong> — designed and developed a responsive UI for inventory management with real-time cart and product tracking.
                         </p>
+                        <div class="project-card__tags">
+                            <span class="tag">ReactJS</span>
+                            <span class="tag">JavaScript</span>
+                            <span class="tag">CSS3</span>
+                        </div>
                         <div class="project-card__links">
                             <a href="https://github.com/Devansh26/SneakerCart" target="_blank" rel="noopener noreferrer"
                                 class="btn btn--gradient">
@@ -362,61 +446,127 @@
             </h2>
 
             <div class="timeline" role="list" aria-label="Work experience timeline">
+
+                <!-- NTT Data - Current Role -->
                 <article class="timeline__item timeline__item--right" role="listitem">
-                    <div class="timeline__content">
-                        <h3 class="timeline__company"></h3>
-                        <p class="timeline__role">Full Stack Developer (Freelance) | Part-Time</p>
-                        <time class="timeline__date">Present</time>
+                    <div class="timeline__content timeline__content--featured">
+                        <div class="timeline__header">
+                            <h3 class="timeline__company">NTT Data Payment Services</h3>
+                            <span class="timeline__current-badge">Current</span>
+                        </div>
+                        <p class="timeline__role">Software Developer (Full Stack)</p>
+                        <p class="timeline__location"><i class="fas fa-map-marker-alt" aria-hidden="true"></i> Mumbai, India</p>
+                        <time class="timeline__date">March 2025 – Present</time>
+                        <p class="timeline__desc">Architected a BFF microservices layer to decouple a legacy Spring JSP monolith enabling independent deployment. Led ReactJS migration reducing technical debt by 40%. Implemented Redis caching, JWT/OAuth 2.0, Spring Batch for payment processing, and multithreading via Java ExecutorService.</p>
+                        <div class="timeline__tags">
+                            <span class="tag">Java</span>
+                            <span class="tag">Spring Boot</span>
+                            <span class="tag">Redis</span>
+                            <span class="tag">ReactJS</span>
+                            <span class="tag">Microservices</span>
+                            <span class="tag">JWT / OAuth 2.0</span>
+                            <span class="tag">SonarQube</span>
+                            <span class="tag">GitHub Copilot</span>
+                        </div>
                     </div>
                 </article>
 
+                <!-- Insynqs Co-op -->
                 <article class="timeline__item timeline__item--left" role="listitem">
                     <div class="timeline__content">
-                        <h3 class="timeline__company">The Home Depot</h3>
-                        <p class="timeline__role">Lumber Associate | Part-Time</p>
-                        <time class="timeline__date">Apr 2023 - Present</time>
+                        <h3 class="timeline__company">Insynqs</h3>
+                        <p class="timeline__role">Full Stack Developer (Co-op)</p>
+                        <p class="timeline__location"><i class="fas fa-map-marker-alt" aria-hidden="true"></i> Toronto, Canada</p>
+                        <time class="timeline__date">May 2024 – Aug 2024</time>
+                        <p class="timeline__desc">Built a job search platform with Angular & Laravel featuring a Python-based AI resume-to-job matching engine. Independently delivered a Next.js marketing site increasing engagement by 30%, deployed on AWS with Docker.</p>
+                        <div class="timeline__tags">
+                            <span class="tag">Angular</span>
+                            <span class="tag">Next.js</span>
+                            <span class="tag">Laravel</span>
+                            <span class="tag">Python (AI)</span>
+                            <span class="tag">AWS</span>
+                            <span class="tag">Docker</span>
+                            <span class="tag">WebSockets</span>
+                        </div>
                     </div>
                 </article>
 
+                <!-- Freelance -->
                 <article class="timeline__item timeline__item--right" role="listitem">
                     <div class="timeline__content">
-                        <h3 class="timeline__company">Lambton College</h3>
-                        <p class="timeline__role">Full Stack Developer | Coop</p>
-                        <time class="timeline__date">May 2024 - Aug 2024</time>
+                        <h3 class="timeline__company">Freelance</h3>
+                        <p class="timeline__role">Full Stack Developer</p>
+                        <p class="timeline__location"><i class="fas fa-map-marker-alt" aria-hidden="true"></i> Canada / Remote</p>
+                        <time class="timeline__date">2023 – Present</time>
+                        <p class="timeline__desc">Delivered multiple client projects: Visagen (multi-tenant SaaS immigration platform on AWS), DriveySync (React Native location-based mobile app), and WorkLifeBalance (full-stack productivity platform with JWT auth).</p>
+                        <div class="timeline__tags">
+                            <span class="tag">NestJS</span>
+                            <span class="tag">Next.js</span>
+                            <span class="tag">Flutter</span>
+                            <span class="tag">React Native</span>
+                            <span class="tag">AWS Cognito</span>
+                            <span class="tag">Node.js</span>
+                        </div>
                     </div>
                 </article>
 
+                <!-- Transact Box -->
                 <article class="timeline__item timeline__item--left" role="listitem">
                     <div class="timeline__content">
                         <h3 class="timeline__company">Transact Box</h3>
                         <p class="timeline__role">Full Stack Developer</p>
-                        <time class="timeline__date">June 2022 - Dec 2022</time>
+                        <p class="timeline__location"><i class="fas fa-map-marker-alt" aria-hidden="true"></i> Mumbai, India</p>
+                        <time class="timeline__date">June 2022 – Dec 2022</time>
+                        <p class="timeline__desc">Delivered payment applications achieving a 15% efficiency gain. Integrated 2DS/3DS payment gateways improving processing speed by 30%. Built production-grade RESTful APIs with 100% JUnit/Mockito functional coverage.</p>
+                        <div class="timeline__tags">
+                            <span class="tag">Java</span>
+                            <span class="tag">Spring Boot</span>
+                            <span class="tag">ReactJS</span>
+                            <span class="tag">MySQL</span>
+                            <span class="tag">JUnit / Mockito</span>
+                            <span class="tag">Hibernate</span>
+                        </div>
                     </div>
                 </article>
 
+                <!-- TCS -->
                 <article class="timeline__item timeline__item--right" role="listitem">
                     <div class="timeline__content">
                         <h3 class="timeline__company">Tata Consultancy Services</h3>
                         <p class="timeline__role">Assistant System Engineer</p>
-                        <time class="timeline__date">Nov 2020 - June 2021</time>
+                        <p class="timeline__location"><i class="fas fa-map-marker-alt" aria-hidden="true"></i> Mumbai, India</p>
+                        <time class="timeline__date">Nov 2020 – June 2022</time>
+                        <p class="timeline__desc">Developed RESTful APIs and enterprise web applications for large-scale clients. Configured SAML/Basic Auth for enterprise security and delivered infrastructure improvements boosting production reliability.</p>
+                        <div class="timeline__tags">
+                            <span class="tag">Java</span>
+                            <span class="tag">Spring Boot</span>
+                            <span class="tag">JPA / Hibernate</span>
+                            <span class="tag">ReactJS</span>
+                            <span class="tag">SAML</span>
+                        </div>
                     </div>
                 </article>
 
+                <!-- The Home Depot -->
                 <article class="timeline__item timeline__item--left" role="listitem">
                     <div class="timeline__content">
-                        <h3 class="timeline__company">PMGT</h3>
-                        <p class="timeline__role">Teacher | Part-Time</p>
-                        <time class="timeline__date">Dec 2021 - Dec 2022</time>
+                        <h3 class="timeline__company">The Home Depot</h3>
+                        <p class="timeline__role">Lumber Associate · Part-Time</p>
+                        <p class="timeline__location"><i class="fas fa-map-marker-alt" aria-hidden="true"></i> Toronto, Canada</p>
+                        <time class="timeline__date">Apr 2023 – Present</time>
                     </div>
                 </article>
 
+                <!-- Hackathon -->
                 <article class="timeline__item timeline__item--right" role="listitem">
                     <div class="timeline__content">
-                        <h3 class="timeline__company">Lambton College</h3>
-                        <p class="timeline__role">Hackathon (Hack LCIT) | Contributor</p>
+                        <h3 class="timeline__company">Hackathon – Hack LCIT 2023</h3>
+                        <p class="timeline__role">Contributor · Google Developer Student Club</p>
+                        <p class="timeline__location"><i class="fas fa-map-marker-alt" aria-hidden="true"></i> Toronto, Canada</p>
                         <time class="timeline__date">March 2023</time>
                     </div>
                 </article>
+
             </div>
         </section>
 
@@ -508,9 +658,9 @@
             <div class="footer__contact">
                 <h3>Contact Info</h3>
                 <address>
-                    <p><i class="fas fa-phone" aria-hidden="true"></i> +1 (XXX) XXX-XXXX</p>
+                    <p><i class="fas fa-phone" aria-hidden="true"></i> +1 (226) 883-1761</p>
                     <p><i class="fas fa-envelope" aria-hidden="true"></i> <a
-                            href="mailto:devansh.9812@gmail.com">devansh.9812@gmail.com</a></p>
+                            href="mailto:devansh981226@gmail.com">devansh981226@gmail.com</a></p>
                     <p><i class="fas fa-map-marked-alt" aria-hidden="true"></i> Toronto, Canada - M3J 1V6</p>
                 </address>
 
@@ -520,7 +670,7 @@
                                 aria-hidden="true"></i></a></li>
                     <li><a href="https://github.com/Devansh26" target="_blank" rel="noopener noreferrer"
                             aria-label="GitHub"><i class="fab fa-github" aria-hidden="true"></i></a></li>
-                    <li><a href="mailto:devansh.9812@gmail.com" aria-label="Email"><i class="fas fa-envelope"
+                    <li><a href="mailto:devansh981226@gmail.com" aria-label="Email"><i class="fas fa-envelope"
                                 aria-hidden="true"></i></a></li>
                     <li><a href="https://twitter.com/" target="_blank" rel="noopener noreferrer" aria-label="Twitter"><i
                                 class="fab fa-twitter" aria-hidden="true"></i></a></li>
