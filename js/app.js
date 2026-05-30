@@ -1,130 +1,74 @@
 /**
- * Particles.js Configuration
- * Creates an interactive particle background effect
- * 
- * @see https://github.com/VincentGarreau/particles.js
+ * Particles.js Configuration – AI Neural Theme
+ * Cyan neural network dots on dark background
  */
 
 'use strict';
 
-// Configuration object for particles
 const particlesConfig = {
   particles: {
     number: {
-      value: 80,
-      density: {
-        enable: true,
-        value_area: 800
-      }
+      value: 60,
+      density: { enable: true, value_area: 900 }
     },
-    color: {
-      value: '#000000'
-    },
+    color: { value: ['#00d4ff', '#7c3aed', '#ec4899'] },
     shape: {
       type: 'circle',
-      stroke: {
-        width: 0,
-        color: '#000000'
-      },
-      polygon: {
-        nb_sides: 5
-      }
+      stroke: { width: 0, color: '#000000' }
     },
     opacity: {
       value: 0.5,
-      random: false,
-      anim: {
-        enable: false,
-        speed: 1,
-        opacity_min: 0.1,
-        sync: false
-      }
+      random: true,
+      anim: { enable: true, speed: 0.8, opacity_min: 0.1, sync: false }
     },
     size: {
-      value: 5,
+      value: 2.5,
       random: true,
-      anim: {
-        enable: false,
-        speed: 40,
-        size_min: 0.1,
-        sync: false
-      }
+      anim: { enable: false, speed: 40, size_min: 0.1, sync: false }
     },
     line_linked: {
       enable: true,
-      distance: 150,
-      color: '#000000',
-      opacity: 0.4,
+      distance: 160,
+      color: '#00d4ff',
+      opacity: 0.12,
       width: 1
     },
     move: {
       enable: true,
-      speed: 6,
+      speed: 1.2,
       direction: 'none',
-      random: false,
+      random: true,
       straight: false,
       out_mode: 'out',
       bounce: false,
-      attract: {
-        enable: false,
-        rotateX: 600,
-        rotateY: 1200
-      }
+      attract: { enable: false, rotateX: 600, rotateY: 1200 }
     }
   },
   interactivity: {
     detect_on: 'canvas',
     events: {
-      onhover: {
-        enable: true,
-        mode: 'repulse'
-      },
-      onclick: {
-        enable: true,
-        mode: 'push'
-      },
+      onhover: { enable: true, mode: 'grab' },
+      onclick: { enable: true, mode: 'push' },
       resize: true
     },
     modes: {
-      grab: {
-        distance: 400,
-        line_linked: {
-          opacity: 1
-        }
-      },
-      bubble: {
-        distance: 400,
-        size: 40,
-        duration: 2,
-        opacity: 8,
-        speed: 3
-      },
-      repulse: {
-        distance: 200,
-        duration: 0.4
-      },
-      push: {
-        particles_nb: 4
-      },
-      remove: {
-        particles_nb: 2
-      }
+      grab: { distance: 180, line_linked: { opacity: 0.6 } },
+      bubble: { distance: 400, size: 4, duration: 2, opacity: 0.8, speed: 3 },
+      repulse: { distance: 150, duration: 0.4 },
+      push: { particles_nb: 3 },
+      remove: { particles_nb: 2 }
     }
   },
   retina_detect: true
 };
 
-// Initialize particles when DOM is ready
 function initParticles() {
-  const particlesContainer = document.getElementById('particles-js');
-
-  if (particlesContainer && typeof particlesJS !== 'undefined') {
+  const container = document.getElementById('particles-js');
+  if (container && typeof particlesJS !== 'undefined') {
     particlesJS('particles-js', particlesConfig);
-    console.log('Particles.js initialized');
   }
 }
 
-// Run initialization
 if (document.readyState === 'loading') {
   document.addEventListener('DOMContentLoaded', initParticles);
 } else {

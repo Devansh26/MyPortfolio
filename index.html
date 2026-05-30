@@ -7,38 +7,36 @@
 
     <!-- SEO Meta Tags -->
     <meta name="description"
-        content="Welcome to Devansh Shah's Portfolio. Full-Stack Web Developer specializing in React, Node.js, and modern web technologies.">
+        content="Devansh Shah – Full Stack Developer with 4+ years building cloud-native, distributed systems. Expert in Java, Spring Boot, React, Node.js, AWS & microservices. Open to work – Canada Work Permit valid until 2028.">
     <meta name="keywords"
-        content="Devansh Shah, portfolio, full stack developer, web developer, React, Node.js, JavaScript">
+        content="Devansh Shah, Full Stack Developer, Java, Spring Boot, React, Node.js, AWS, microservices, Toronto, Canada, open to work">
     <meta name="author" content="Devansh Shah">
     <meta name="robots" content="index, follow">
 
-    <!-- Open Graph / Social Media -->
+    <!-- Open Graph -->
     <meta property="og:type" content="website">
-    <meta property="og:title" content="Devansh Shah | Full Stack Developer">
+    <meta property="og:title" content="Devansh Shah | Full Stack Developer – Open to Work">
     <meta property="og:description"
-        content="Full-Stack Web Developer specializing in React, Node.js, and modern web technologies.">
+        content="Full Stack Developer · 4+ Years · Java, Spring Boot, React, AWS · Canada Work Permit · Available Worldwide">
 
-    <!-- Theme Color -->
-    <meta name="theme-color" content="#2506ad">
+    <meta name="theme-color" content="#050816">
 
-    <title>Portfolio | Devansh Shah</title>
+    <title>Devansh Shah | Full Stack Developer – Open to Work</title>
 
     <!-- Favicon -->
     <link rel="icon" type="image/png" href="img/favhand.png" id="favicon">
 
-    <!-- Preconnect for Performance -->
+    <!-- Preconnect -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link rel="preconnect" href="https://cdnjs.cloudflare.com">
 
-    <!-- Fonts -->
+    <!-- Fonts: Inter + Fira Code -->
     <link rel="stylesheet"
-        href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&family=Nunito:wght@300;400;600;700&display=swap">
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Fira+Code:wght@400;500;600&display=swap">
 
-    <!-- Font Awesome -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
-        integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+    <!-- Font Awesome 6 -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
         crossorigin="anonymous" referrerpolicy="no-referrer">
 
     <!-- Custom CSS -->
@@ -46,13 +44,18 @@
 </head>
 
 <body>
+    <!-- Animated Neural Background -->
+    <div class="neural-bg" aria-hidden="true"></div>
+
     <!-- Skip to Main Content (Accessibility) -->
     <a href="#main-content" class="skip-link">Skip to main content</a>
 
     <!-- Header / Navigation -->
     <header class="header" role="banner">
-        <a href="#home" class="logo" aria-label="Devansh Shah - Home">
-            <i class="fab fa-github" aria-hidden="true"></i>
+        <a href="#home" class="logo" aria-label="Devansh Shah – Home">
+            <div class="logo-icon">
+                <i class="fa-solid fa-code" aria-hidden="true"></i>
+            </div>
             <span>Devansh</span>
         </a>
 
@@ -67,7 +70,7 @@
                 <li><a href="#about" class="nav-link">About</a></li>
                 <li><a href="#skills" class="nav-link">Skills</a></li>
                 <li><a href="#education" class="nav-link">Education</a></li>
-                <li><a href="#work" class="nav-link">Work</a></li>
+                <li><a href="#work" class="nav-link">Projects</a></li>
                 <li><a href="#experience" class="nav-link">Experience</a></li>
                 <li><a href="#contact" class="nav-link">Contact</a></li>
             </ul>
@@ -75,22 +78,43 @@
     </header>
 
     <main id="main-content">
-        <!-- Hero Section -->
+
+        <!-- ============================================================
+             HERO SECTION
+        ============================================================ -->
         <section class="hero" id="home" aria-labelledby="hero-heading">
             <div id="particles-js" class="particles-container" aria-hidden="true"></div>
 
             <div class="hero__content">
+                <div class="hero__greeting">
+                    <span class="hero__greeting-dot"></span>
+                    Available for New Opportunities
+                </div>
+
                 <h1 id="hero-heading">
-                    Hi There,<br>
-                    I'm Devansh <span class="highlight-orange">Shah</span>
+                    Hi, I'm<br>
+                    <span class="name-highlight">Devansh Shah</span>
                 </h1>
+
                 <p class="hero__tagline">
-                    I am into <span class="typing-text" aria-label="Full Stack development"></span>
+                    I build <span class="typing-text" aria-label="Full Stack Developer"></span>
                 </p>
-                <a href="#about" class="btn btn--primary">
-                    <span>About Me</span>
-                    <i class="fas fa-arrow-circle-down" aria-hidden="true"></i>
-                </a>
+
+                <p class="hero__desc">
+                    Full Stack Developer with <strong>4+ years</strong> crafting cloud-native, distributed systems.
+                    Passionate about clean architecture, high-performance APIs, and shipping products that matter.
+                </p>
+
+                <div class="hero__actions">
+                    <a href="#work" class="btn btn--primary">
+                        <span>View My Work</span>
+                        <i class="fas fa-arrow-right" aria-hidden="true"></i>
+                    </a>
+                    <a href="#contact" class="btn btn--outline">
+                        <span>Hire Me</span>
+                        <i class="fas fa-paper-plane" aria-hidden="true"></i>
+                    </a>
+                </div>
 
                 <div class="hero__stats" aria-label="Key statistics">
                     <div class="hero__stat">
@@ -104,6 +128,10 @@
                     <div class="hero__stat">
                         <span class="hero__stat-number">5+</span>
                         <span class="hero__stat-label">Companies</span>
+                    </div>
+                    <div class="hero__stat">
+                        <span class="hero__stat-number">∞</span>
+                        <span class="hero__stat-label">Coffees</span>
                     </div>
                 </div>
 
@@ -128,7 +156,7 @@
                         </a>
                     </li>
                     <li>
-                        <a href="https://www.instagram.com/devansh981226" target="_blank" rel="noopener noreferrer"
+                        <a href="https://www.instagram.com/devansh_shah_26" target="_blank" rel="noopener noreferrer"
                             class="social-link social-link--instagram" aria-label="Instagram Profile">
                             <i class="fab fa-instagram" aria-hidden="true"></i>
                         </a>
@@ -136,146 +164,269 @@
                 </ul>
             </div>
 
-            <div class="hero__image">
-                <img src="https://t4.ftcdn.net/jpg/05/90/45/35/360_F_590453560_ugMuPncnGYB6XnJqmC8xiPQx4eg3jmMD.jpg"
-                    alt="Professional developer illustration" class="tilt" loading="eager">
+            <!-- Hero Visual: Animated Code Terminal (no duplicate photo) -->
+            <div class="hero__terminal" aria-hidden="true">
+                <div class="hero__terminal-bar">
+                    <span class="hero__terminal-dot hero__terminal-dot--red"></span>
+                    <span class="hero__terminal-dot hero__terminal-dot--yellow"></span>
+                    <span class="hero__terminal-dot hero__terminal-dot--green"></span>
+                    <span class="hero__terminal-title">devansh@portfolio ~ $</span>
+                </div>
+                <div class="hero__terminal-body">
+                    <div class="hero__terminal-line">
+                        <span class="t-prompt">$</span>
+                        <span class="t-cmd"> whoami</span>
+                    </div>
+                    <div class="hero__terminal-line t-output">Devansh Shah · Full Stack Developer</div>
+                    <div class="hero__terminal-line">
+                        <span class="t-prompt">$</span>
+                        <span class="t-cmd"> cat skills.txt</span>
+                    </div>
+                    <div class="hero__terminal-line t-output">Java · Spring Boot · React · Node.js</div>
+                    <div class="hero__terminal-line t-output">AWS · Docker · Redis · Microservices</div>
+                    <div class="hero__terminal-line t-output">Flutter · Next.js · TypeScript · Python</div>
+                    <div class="hero__terminal-line">
+                        <span class="t-prompt">$</span>
+                        <span class="t-cmd"> ./status.sh</span>
+                    </div>
+                    <div class="hero__terminal-line t-output t-green">✓ 4+ years experience</div>
+                    <div class="hero__terminal-line t-output t-green">✓ Open to Work — India / Canada / Worldwide</div>
+                    <div class="hero__terminal-line t-output t-green">✓ Canada Work Permit valid until 2028</div>
+                    <div class="hero__terminal-line t-output t-green">✓ No Sponsorship Required</div>
+                    <div class="hero__terminal-line">
+                        <span class="t-prompt">$</span>
+                        <span class="t-cmd t-cursor"> _</span>
+                    </div>
+                </div>
+                <!-- Floating tech badges around terminal -->
+                <div class="hero__code-snippet hero__code-snippet--1">&lt;microservice /&gt;</div>
+                <div class="hero__code-snippet hero__code-snippet--2">aws.deploy() ✓</div>
+                <div class="hero__code-snippet hero__code-snippet--3">@SpringBoot</div>
             </div>
         </section>
 
-        <!-- About Section -->
+        <!-- ============================================================
+             OPEN TO WORK BANNER
+        ============================================================ -->
+        <div class="otw-banner" role="complementary" aria-label="Work availability status">
+            <div class="otw-banner__left">
+                <div class="otw-pulse" aria-hidden="true"></div>
+                <div class="otw-banner__text">
+                    <h3>🚀 Open to Work — Worldwide</h3>
+                    <p>Available immediately · Remote, Hybrid, or On-Site · Any country</p>
+                </div>
+            </div>
+            <div class="otw-banner__badges">
+                <span class="otw-badge">
+                    <i class="fas fa-flag" aria-hidden="true"></i>
+                    🇨🇦 Canada Work Permit · Valid 2028
+                </span>
+                <span class="otw-badge">
+                    <i class="fas fa-globe" aria-hidden="true"></i>
+                    Open Work Permit · No Sponsorship Needed
+                </span>
+                <span class="otw-badge otw-badge--visa">
+                    <i class="fas fa-map-marker-alt" aria-hidden="true"></i>
+                    Toronto, Canada · Relocate Anywhere
+                </span>
+            </div>
+        </div>
+
+        <!-- ============================================================
+             ABOUT SECTION
+        ============================================================ -->
         <section class="about" id="about" aria-labelledby="about-heading">
             <h2 class="section-heading" id="about-heading">
-                <i class="fas fa-user-alt" aria-hidden="true"></i>
-                About <span class="highlight">Me</span>
+                <i class="fas fa-user-astronaut" aria-hidden="true"></i>
+                About <span class="highlight-cyan">Me</span>
             </h2>
 
             <div class="about__container">
                 <div class="about__image">
-                    <img src="img/1.jpeg" alt="Devansh Shah - Full Stack Developer" class="tilt" loading="lazy">
+                    <div class="about__image-frame">
+                        <img src="img/1.jpeg" alt="Devansh Shah – Full Stack Developer" class="tilt" loading="lazy">
+                        <div class="about__image-badge">
+                            <div>4+ Years</div>
+                            <div style="font-size:1.1rem; opacity:0.85;">Building Scale</div>
+                        </div>
+                    </div>
                 </div>
 
                 <div class="about__content">
-                    <h3 class="about__name">I'm Devansh</h3>
-                    <span class="about__role">Full Stack Developer</span>
+                    <span class="about__role">Full Stack Developer · Software Engineer</span>
+                    <h3 class="about__name">Devansh Shah</h3>
 
                     <p class="about__bio">
-                        Full Stack Developer with <strong>4+ years of experience</strong> building scalable, cloud-native distributed systems.
-                        Currently a Software Developer at <strong>NTT Data Payment Services</strong>, specializing in Java, Spring Boot,
-                        ReactJS, NextJS, NestJS, and AWS. Passionate about microservices architecture, clean code, and
-                        delivering measurable business impact. IT graduate from Mumbai University with a Post-Graduate Diploma
-                        in Full Stack Development from Lambton College, Toronto.
+                        I'm a Full Stack Developer with <strong style="color:var(--ai-cyan)">4+ years of experience</strong>
+                        building scalable, cloud-native distributed systems. Currently at
+                        <strong style="color:var(--ai-cyan)">NTT Data Payment Services</strong>, where I architect BFF
+                        microservices, lead React migrations, and implement high-throughput payment pipelines using Java,
+                        Spring Boot, Redis, and AWS.
+                        <br><br>
+                        IT graduate from <strong style="color:var(--ai-cyan)">Mumbai University</strong> + Post-Graduate Diploma
+                        in Full Stack Development from <strong style="color:var(--ai-cyan)">Lambton College, Toronto</strong>.
+                        I love clean code, microservice architecture, and shipping products that create real impact.
                     </p>
 
-                    <div class="about__badge">
-                        <i class="fas fa-check-circle" aria-hidden="true"></i>
-                        <span>Open Work Permit · Valid Until 2028 · No Sponsorship Required</span>
+                    <div class="about__badges">
+                        <div class="about__badge about__badge--green">
+                            <i class="fas fa-check-circle" aria-hidden="true"></i>
+                            <span>Open Work Permit · Valid Until 2028 · No Sponsorship Required</span>
+                        </div>
+                        <div class="about__badge about__badge--cyan">
+                            <i class="fas fa-globe" aria-hidden="true"></i>
+                            <span>Available Worldwide – Remote, Hybrid or On-site</span>
+                        </div>
                     </div>
 
                     <div class="about__info">
                         <div class="about__info-item">
-                            <span class="label">Email:</span>
+                            <span class="label">Email</span>
                             <a href="mailto:devansh981226@gmail.com">devansh981226@gmail.com</a>
                         </div>
                         <div class="about__info-item">
-                            <span class="label">Location:</span>
-                            <span>Toronto, Canada – M3J 1V6</span>
+                            <span class="label">Currently Based</span>
+                            <span>🇮🇳 Mumbai, India</span>
+                        </div>
+                        <div class="about__info-item">
+                            <span class="label">Canada Address</span>
+                            <span>🇨🇦 Toronto, ON – M3J 1V6</span>
+                        </div>
+                        <div class="about__info-item">
+                            <span class="label">Availability</span>
+                            <span style="color:var(--ai-green);">✓ Immediately Available</span>
                         </div>
                     </div>
 
                     <div class="about__cta">
-                        <a href="https://docs.google.com/document/d/1QyMuuEcTS0oBa2WsQ31lGKn4xVlcZymy4Dh56y_GcpQ/edit?usp=sharing"
-                            target="_blank" rel="noopener noreferrer" class="btn btn--primary">
-                            <span>Resume</span>
-                            <i class="fas fa-chevron-right" aria-hidden="true"></i>
+                        <a href="#contact" class="btn btn--primary" id="request-resume-btn">
+                            <span>Request My Resume</span>
+                            <i class="fas fa-file-lines" aria-hidden="true"></i>
+                        </a>
+                        <a href="#contact" class="btn btn--outline">
+                            <span>Let's Talk</span>
+                            <i class="fas fa-comment-dots" aria-hidden="true"></i>
                         </a>
                     </div>
                 </div>
             </div>
         </section>
 
-        <!-- Skills Section -->
+        <!-- ============================================================
+             SKILLS SECTION
+        ============================================================ -->
         <section class="skills" id="skills" aria-labelledby="skills-heading">
-            <h2 class="section-heading section-heading--light" id="skills-heading">
-                <i class="fas fa-laptop-code" aria-hidden="true"></i>
-                Skills & <span class="highlight--yellow">Abilities</span>
+            <h2 class="section-heading" id="skills-heading">
+                <i class="fas fa-microchip" aria-hidden="true"></i>
+                Tech <span class="highlight-cyan">Stack</span>
             </h2>
+            <p class="section-subtitle">Technologies I've worked with across production systems, freelance projects, and co-ops.</p>
 
-            <div class="skills__container">
-                <div class="skills__grid" id="skillsContainer" role="list" aria-label="Technical skills">
-                    <!-- Skills populated by JavaScript -->
-                </div>
+            <div class="skills__filter" role="group" aria-label="Filter skills by category">
+                <button class="skills__filter-btn active" data-filter="all" id="filter-all">All</button>
+                <button class="skills__filter-btn" data-filter="frontend" id="filter-frontend">Frontend</button>
+                <button class="skills__filter-btn" data-filter="backend" id="filter-backend">Backend</button>
+                <button class="skills__filter-btn" data-filter="cloud" id="filter-cloud">Cloud & DevOps</button>
+                <button class="skills__filter-btn" data-filter="mobile" id="filter-mobile">Mobile</button>
+                <button class="skills__filter-btn" data-filter="database" id="filter-database">Database</button>
+                <button class="skills__filter-btn" data-filter="language" id="filter-language">Languages</button>
+                <button class="skills__filter-btn" data-filter="tools" id="filter-tools">Tools</button>
+            </div>
+
+            <div class="skills__grid" id="skillsContainer" role="list" aria-label="Technical skills">
+                <!-- Skills populated by JavaScript -->
             </div>
         </section>
 
-        <!-- Education Section -->
+        <!-- ============================================================
+             EDUCATION SECTION
+        ============================================================ -->
         <section class="education" id="education" aria-labelledby="education-heading">
             <h2 class="section-heading" id="education-heading">
                 <i class="fas fa-graduation-cap" aria-hidden="true"></i>
-                My <span class="highlight">Education</span>
+                My <span class="highlight-cyan">Education</span>
             </h2>
 
             <blockquote class="education__quote">
-                "Education is not the learning of facts, but the training of the mind to think."
+                "Education is not the learning of facts, but the training of the mind to think." — Albert Einstein
             </blockquote>
 
             <div class="education__list">
+
+                <!-- Lambton College -->
                 <article class="education__card">
-                    <div class="education__card-image">
-                        <img src="https://www.lambtoncollege.ca/images/default-source/all-images/corporate-reports.webp?sfvrsn=43bfd3f6_3"
-                            alt="Lambton College Campus" loading="lazy">
+                    <div class="education__card-accent"></div>
+                    <div class="education__card-icon-wrap edu-lambton">
+                        <i class="fas fa-graduation-cap"></i>
+                        <span class="edu-country-flag">🇨🇦</span>
                     </div>
                     <div class="education__card-content">
                         <h3>Post Graduate Diploma in Full Stack Development</h3>
-                        <p class="education__institution">Lambton College | Toronto</p>
-                        <p class="education__date">2023-2024 | Completed</p>
+                        <p class="education__institution">Lambton College · Toronto, Canada</p>
+                        <time class="education__date">2023 – 2024 · Completed</time>
                     </div>
                 </article>
 
+                <!-- Xavier / Mumbai University -->
                 <article class="education__card">
-                    <div class="education__card-image">
-                        <img src="https://www.xavier.ac.in/images/slider/1a.jpg"
-                            alt="Xavier Institute of Engineering Campus" loading="lazy">
+                    <div class="education__card-accent"></div>
+                    <div class="education__card-icon-wrap edu-xavier">
+                        <i class="fas fa-university"></i>
+                        <span class="edu-country-flag">🇮🇳</span>
                     </div>
                     <div class="education__card-content">
                         <h3>Bachelor of Engineering in Information Technology</h3>
-                        <p class="education__institution">Xavier Institute Of Engineering | Mumbai University</p>
-                        <p class="education__date">2017-2020 | Completed</p>
+                        <p class="education__institution">Xavier Institute of Engineering · Mumbai University</p>
+                        <time class="education__date">2017 – 2020 · Completed</time>
                     </div>
                 </article>
 
+                <!-- MSBTE Diploma -->
                 <article class="education__card">
-                    <div class="education__card-image">
-                        <img src="https://images.shiksha.com/mediadata/images/1510825022phpfsuLPM.jpeg"
-                            alt="Diploma College Campus" loading="lazy">
+                    <div class="education__card-accent"></div>
+                    <div class="education__card-icon-wrap edu-msbte">
+                        <i class="fas fa-laptop-code"></i>
+                        <span class="edu-country-flag">🇮🇳</span>
                     </div>
                     <div class="education__card-content">
                         <h3>Diploma in Information Technology</h3>
-                        <p class="education__institution">MSBTE | Mumbai</p>
-                        <p class="education__date">2014-2017 | Completed</p>
+                        <p class="education__institution">MSBTE · Mumbai, India</p>
+                        <time class="education__date">2014 – 2017 · Completed</time>
                     </div>
                 </article>
+
             </div>
         </section>
 
-        <!-- Projects Section -->
+        <!-- ============================================================
+             PROJECTS SECTION
+        ============================================================ -->
         <section class="work" id="work" aria-labelledby="work-heading">
-            <h2 class="section-heading section-heading--light" id="work-heading">
-                <i class="fas fa-laptop-code" aria-hidden="true"></i>
-                My <span class="highlight--yellow">Projects</span>
+            <h2 class="section-heading" id="work-heading">
+                <i class="fas fa-rocket" aria-hidden="true"></i>
+                Featured <span class="highlight-cyan">Projects</span>
             </h2>
+            <p class="section-subtitle">Production-grade work spanning SaaS platforms, mobile apps, and enterprise systems.</p>
 
             <div class="projects__grid">
 
-                <!-- Project: Visagen -->
+                <!-- Project: Visagen (Featured) -->
                 <article class="project-card project-card--featured">
-                    <div class="project-card__image">
-                        <img src="https://img.icons8.com/?size=100&id=aWXE0WgI8weT&format=png" alt="Visagen Project">
+                    <div class="project-card__header">
+                        <div class="project-card__header-bg"
+                            style="background-image: url('https://images.unsplash.com/photo-1639762681057-408e52192e55?w=600&auto=format&fit=crop');"></div>
+                        <div class="project-card__icon">
+                            <i class="fas fa-id-card-clip"></i>
+                        </div>
+                        <span class="project-card__featured-badge">⭐ Featured</span>
                     </div>
                     <div class="project-card__content">
                         <span class="project-card__date">Dec 2024 – Mar 2025</span>
-                        <h3 class="project-card__title">Visagen (Freelance)</h3>
+                        <h3 class="project-card__title">Visagen – SaaS Immigration Platform</h3>
                         <p class="project-card__desc">
-                            A <strong>multi-tenant SaaS immigration platform</strong> on AWS (ECS, S3). Built NestJS microservices, Next.js + React web app, cross-platform Flutter mobile app, AWS Cognito auth, and a Chrome Extension cutting form data-entry by 70%.
+                            A <strong>multi-tenant SaaS platform</strong> on AWS (ECS, S3) for immigration workflows.
+                            Built NestJS microservices, Next.js + React web app, cross-platform Flutter mobile app,
+                            AWS Cognito auth system, and a Chrome Extension that <strong>cut form data-entry by 70%</strong>.
                         </p>
                         <div class="project-card__tags">
                             <span class="tag">NestJS</span>
@@ -283,11 +434,12 @@
                             <span class="tag">Flutter</span>
                             <span class="tag">AWS ECS/S3</span>
                             <span class="tag">Cognito</span>
+                            <span class="tag">Chrome Ext.</span>
                         </div>
                         <div class="project-card__links">
                             <a href="https://github.com/Devansh26" target="_blank" rel="noopener noreferrer"
                                 class="btn btn--gradient">
-                                Read More
+                                <i class="fab fa-github"></i> GitHub
                             </a>
                         </div>
                     </div>
@@ -295,15 +447,20 @@
 
                 <!-- Project: DriveySync -->
                 <article class="project-card">
-                    <div class="project-card__image">
-                        <img src="https://thumbs.dreamstime.com/b/auto-repair-car-logo-design-concept-illustrator-vector-automotive-tuning-cars-template-isolated-white-transparency-158211392.jpg"
-                            alt="DriveySync Project">
+                    <div class="project-card__header">
+                        <div class="project-card__header-bg"
+                            style="background-image: url('https://images.unsplash.com/photo-1549317661-bd32c8ce0db2?w=600&auto=format&fit=crop');"></div>
+                        <div class="project-card__icon">
+                            <i class="fas fa-car"></i>
+                        </div>
                     </div>
                     <div class="project-card__content">
                         <span class="project-card__date">Sept – Dec 2024</span>
-                        <h3 class="project-card__title">DriveySync (Freelance)</h3>
+                        <h3 class="project-card__title">DriveySync – Service Finder App</h3>
                         <p class="project-card__desc">
-                            A <strong>React Native + Expo mobile app</strong> connecting users with nearby service providers via real-time Google Maps tracking. Google/Facebook OAuth authentication and Redux for state management.
+                            A <strong>React Native + Expo mobile app</strong> connecting users with nearby automotive service
+                            providers via <strong>real-time Google Maps tracking</strong>. Google/Facebook OAuth and Redux
+                            for state management.
                         </p>
                         <div class="project-card__tags">
                             <span class="tag">React Native</span>
@@ -315,7 +472,7 @@
                         <div class="project-card__links">
                             <a href="https://github.com/Devansh26" target="_blank" rel="noopener noreferrer"
                                 class="btn btn--gradient">
-                                Read More
+                                <i class="fab fa-github"></i> GitHub
                             </a>
                         </div>
                     </div>
@@ -323,14 +480,19 @@
 
                 <!-- Project: WorkLifeBalance -->
                 <article class="project-card">
-                    <div class="project-card__image">
-                        <img src="https://img.icons8.com/?size=100&id=63307&format=png" alt="WorkLifeBalance Project">
+                    <div class="project-card__header">
+                        <div class="project-card__header-bg"
+                            style="background-image: url('https://images.unsplash.com/photo-1484480974693-6ca0a78fb36b?w=600&auto=format&fit=crop');"></div>
+                        <div class="project-card__icon">
+                            <i class="fas fa-brain"></i>
+                        </div>
                     </div>
                     <div class="project-card__content">
                         <span class="project-card__date">Oct 2023</span>
-                        <h3 class="project-card__title">WorkLifeBalance (Freelance)</h3>
+                        <h3 class="project-card__title">WorkLifeBalance – Productivity Platform</h3>
                         <p class="project-card__desc">
-                            A <strong>full-stack productivity platform</strong> with Pomodoro-style timer, JWT authentication, motivational content module, and role-based Admin/User dashboards with secure REST API communication.
+                            A <strong>full-stack productivity app</strong> with Pomodoro timer, JWT auth, motivational
+                            content module, and role-based Admin/User dashboards with secure REST API communication.
                         </p>
                         <div class="project-card__tags">
                             <span class="tag">ReactJS</span>
@@ -341,22 +503,62 @@
                         <div class="project-card__links">
                             <a href="https://github.com/Devansh26" target="_blank" rel="noopener noreferrer"
                                 class="btn btn--gradient">
-                                Read More
+                                <i class="fab fa-github"></i> GitHub
                             </a>
                         </div>
                     </div>
                 </article>
 
-                <!-- Project: Sports Bar -->
+                <!-- Project: Insynqs Job Platform -->
                 <article class="project-card">
-                    <div class="project-card__image">
-                        <img src="https://img.icons8.com/?size=100&id=53409&format=png" alt="Sports Bar Project">
+                    <div class="project-card__header">
+                        <div class="project-card__header-bg"
+                            style="background-image: url('https://images.unsplash.com/photo-1499750310107-5fef28a66643?w=600&auto=format&fit=crop');"></div>
+                        <div class="project-card__icon">
+                            <i class="fas fa-robot"></i>
+                        </div>
+                    </div>
+                    <div class="project-card__content">
+                        <span class="project-card__date">May – Aug 2024 · Co-op</span>
+                        <h3 class="project-card__title">AI Job Matching Platform – Insynqs</h3>
+                        <p class="project-card__desc">
+                            Built a job search platform with <strong>Angular + Laravel</strong> featuring a
+                            <strong>Python-based AI resume-to-job matching engine</strong>. Delivered a Next.js
+                            marketing site boosting engagement by 30%, deployed on AWS with Docker.
+                        </p>
+                        <div class="project-card__tags">
+                            <span class="tag">Angular</span>
+                            <span class="tag">Next.js</span>
+                            <span class="tag">Laravel</span>
+                            <span class="tag">Python AI</span>
+                            <span class="tag">AWS</span>
+                            <span class="tag">Docker</span>
+                        </div>
+                        <div class="project-card__links">
+                            <a href="https://github.com/Devansh26" target="_blank" rel="noopener noreferrer"
+                                class="btn btn--gradient">
+                                <i class="fab fa-github"></i> GitHub
+                            </a>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- Project: Sports Bar Live Menu -->
+                <article class="project-card">
+                    <div class="project-card__header">
+                        <div class="project-card__header-bg"
+                            style="background-image: url('https://images.unsplash.com/photo-1555396273-367ea4eb4db5?w=600&auto=format&fit=crop');"></div>
+                        <div class="project-card__icon">
+                            <i class="fas fa-utensils"></i>
+                        </div>
                     </div>
                     <div class="project-card__content">
                         <span class="project-card__date">Feb 2023</span>
-                        <h3 class="project-card__title">Sports Bar – Live Menu (Freelance)</h3>
+                        <h3 class="project-card__title">Sports Bar – Live Menu System</h3>
                         <p class="project-card__desc">
-                            A responsive <strong>ReactJS digital menu app</strong> with Socket.io for real-time live pricing. RESTful APIs consumed via Axios for seamless dynamic menu updates improving customer transparency.
+                            A responsive <strong>ReactJS digital menu app</strong> with Socket.io for
+                            <strong>real-time live pricing</strong>. RESTful APIs via Axios for dynamic menu updates,
+                            improving customer transparency.
                         </p>
                         <div class="project-card__tags">
                             <span class="tag">ReactJS</span>
@@ -367,7 +569,7 @@
                         <div class="project-card__links">
                             <a href="https://github.com/Devansh26" target="_blank" rel="noopener noreferrer"
                                 class="btn btn--gradient">
-                                Read More
+                                <i class="fab fa-github"></i> GitHub
                             </a>
                         </div>
                     </div>
@@ -375,14 +577,19 @@
 
                 <!-- Project: Sneakerz -->
                 <article class="project-card">
-                    <div class="project-card__image">
-                        <img src="https://wallpapercave.com/wp/wp4020919.jpg" alt="Sneakerz Project">
+                    <div class="project-card__header">
+                        <div class="project-card__header-bg"
+                            style="background-image: url('https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=600&auto=format&fit=crop');"></div>
+                        <div class="project-card__icon">
+                            <i class="fas fa-shoe-prints"></i>
+                        </div>
                     </div>
                     <div class="project-card__content">
-                        <span class="project-card__date">Feb 2023</span>
-                        <h3 class="project-card__title">Sneakerz (College)</h3>
+                        <span class="project-card__date">Feb 2023 · College</span>
+                        <h3 class="project-card__title">Sneakerz – E-commerce Web App</h3>
                         <p class="project-card__desc">
-                            A dynamic sneaker website built as part of a web programming course featuring IndexedDB for client-side storage, a fully responsive UI, and interactive JavaScript features.
+                            Dynamic sneaker e-commerce site with <strong>IndexedDB</strong> for client-side
+                            storage, fully responsive UI, and interactive JavaScript features.
                         </p>
                         <div class="project-card__tags">
                             <span class="tag">HTML5</span>
@@ -393,71 +600,57 @@
                         <div class="project-card__links">
                             <a href="https://github.com/Devansh26/Sneakerzz" target="_blank" rel="noopener noreferrer"
                                 class="btn btn--gradient">
-                                Read More
+                                <i class="fab fa-github"></i> GitHub
                             </a>
                             <a href="https://devansh26.github.io/Sneakerzz/" target="_blank" rel="noopener noreferrer"
-                                class="btn btn--gradient">
-                                Preview
+                                class="btn btn--glass">
+                                <i class="fas fa-external-link-alt"></i> Preview
                             </a>
                         </div>
                     </div>
                 </article>
 
-                <!-- Project: Sneaker Cart -->
-                <article class="project-card">
-                    <div class="project-card__image">
-                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTgKncMpRIr9zMpd2tFkZNysIAiAYaQY1CFUA&usqp=CAU"
-                            alt="Sneaker Cart Project">
-                    </div>
-                    <div class="project-card__content">
-                        <span class="project-card__date">Jan 2019</span>
-                        <h3 class="project-card__title">Sneaker Cart (Freelance)</h3>
-                        <p class="project-card__desc">
-                            A <strong>React-based inventory dashboard</strong> — designed and developed a responsive UI for inventory management with real-time cart and product tracking.
-                        </p>
-                        <div class="project-card__tags">
-                            <span class="tag">ReactJS</span>
-                            <span class="tag">JavaScript</span>
-                            <span class="tag">CSS3</span>
-                        </div>
-                        <div class="project-card__links">
-                            <a href="https://github.com/Devansh26/SneakerCart" target="_blank" rel="noopener noreferrer"
-                                class="btn btn--gradient">
-                                Read More
-                            </a>
-                        </div>
-                    </div>
-                </article>
             </div>
 
             <div class="work__more">
-                <a href="#" class="btn btn--outline">
-                    <span>More Coming Soon...</span>
+                <a href="https://github.com/Devansh26" target="_blank" rel="noopener noreferrer" class="btn btn--outline">
+                    <i class="fab fa-github"></i>
+                    <span>More on GitHub</span>
                     <i class="fas fa-arrow-right" aria-hidden="true"></i>
                 </a>
             </div>
         </section>
 
-        <!-- Experience Section -->
+        <!-- ============================================================
+             EXPERIENCE SECTION
+        ============================================================ -->
         <section class="experience" id="experience" aria-labelledby="experience-heading">
             <h2 class="section-heading" id="experience-heading">
                 <i class="fas fa-briefcase" aria-hidden="true"></i>
-                Experience
+                Work <span class="highlight-cyan">Experience</span>
             </h2>
+            <p class="section-subtitle">5+ companies across India, Canada, and Remote – building real-world systems.</p>
 
             <div class="timeline" role="list" aria-label="Work experience timeline">
 
-                <!-- NTT Data - Current Role -->
+                <!-- NTT Data - Current -->
                 <article class="timeline__item timeline__item--right" role="listitem">
                     <div class="timeline__content timeline__content--featured">
                         <div class="timeline__header">
                             <h3 class="timeline__company">NTT Data Payment Services</h3>
-                            <span class="timeline__current-badge">Current</span>
+                            <span class="timeline__current-badge">● Current</span>
                         </div>
-                        <p class="timeline__role">Software Developer (Full Stack)</p>
-                        <p class="timeline__location"><i class="fas fa-map-marker-alt" aria-hidden="true"></i> Mumbai, India</p>
+                        <p class="timeline__role">Software Developer – Full Stack</p>
+                        <p class="timeline__location">
+                            <i class="fas fa-map-marker-alt" aria-hidden="true"></i> Mumbai, India
+                        </p>
                         <time class="timeline__date">March 2025 – Present</time>
-                        <p class="timeline__desc">Architected a BFF microservices layer to decouple a legacy Spring JSP monolith enabling independent deployment. Led ReactJS migration reducing technical debt by 40%. Implemented Redis caching, JWT/OAuth 2.0, Spring Batch for payment processing, and multithreading via Java ExecutorService.</p>
+                        <p class="timeline__desc">
+                            Architected a BFF microservices layer decoupling a legacy Spring JSP monolith for independent
+                            deployment. Led ReactJS frontend migration cutting technical debt by 40%. Implemented Redis caching,
+                            JWT/OAuth 2.0 security, Spring Batch for payment processing, and multithreading via Java ExecutorService.
+                            Integrated SonarQube + GitHub Copilot into CI/CD pipelines.
+                        </p>
                         <div class="timeline__tags">
                             <span class="tag">Java</span>
                             <span class="tag">Spring Boot</span>
@@ -465,6 +658,7 @@
                             <span class="tag">ReactJS</span>
                             <span class="tag">Microservices</span>
                             <span class="tag">JWT / OAuth 2.0</span>
+                            <span class="tag">Spring Batch</span>
                             <span class="tag">SonarQube</span>
                             <span class="tag">GitHub Copilot</span>
                         </div>
@@ -475,10 +669,16 @@
                 <article class="timeline__item timeline__item--left" role="listitem">
                     <div class="timeline__content">
                         <h3 class="timeline__company">Insynqs</h3>
-                        <p class="timeline__role">Full Stack Developer (Co-op)</p>
-                        <p class="timeline__location"><i class="fas fa-map-marker-alt" aria-hidden="true"></i> Toronto, Canada</p>
+                        <p class="timeline__role">Full Stack Developer – Co-op</p>
+                        <p class="timeline__location">
+                            <i class="fas fa-map-marker-alt" aria-hidden="true"></i> Toronto, Canada
+                        </p>
                         <time class="timeline__date">May 2024 – Aug 2024</time>
-                        <p class="timeline__desc">Built a job search platform with Angular & Laravel featuring a Python-based AI resume-to-job matching engine. Independently delivered a Next.js marketing site increasing engagement by 30%, deployed on AWS with Docker.</p>
+                        <p class="timeline__desc">
+                            Built a job search platform with Angular & Laravel featuring a Python-based AI resume-to-job matching engine.
+                            Independently delivered a Next.js marketing site increasing engagement by 30%. Deployed on AWS with Docker,
+                            implemented WebSockets for real-time notifications.
+                        </p>
                         <div class="timeline__tags">
                             <span class="tag">Angular</span>
                             <span class="tag">Next.js</span>
@@ -496,9 +696,15 @@
                     <div class="timeline__content">
                         <h3 class="timeline__company">Freelance</h3>
                         <p class="timeline__role">Full Stack Developer</p>
-                        <p class="timeline__location"><i class="fas fa-map-marker-alt" aria-hidden="true"></i> Canada / Remote</p>
+                        <p class="timeline__location">
+                            <i class="fas fa-map-marker-alt" aria-hidden="true"></i> Canada / Remote
+                        </p>
                         <time class="timeline__date">2023 – 2024</time>
-                        <p class="timeline__desc">Delivered multiple client projects: Visagen (multi-tenant SaaS immigration platform on AWS), DriveySync (React Native location-based mobile app), and WorkLifeBalance (full-stack productivity platform with JWT auth).</p>
+                        <p class="timeline__desc">
+                            Delivered multiple client projects: Visagen (multi-tenant SaaS immigration platform on AWS ECS),
+                            DriveySync (React Native location-based mobile app), WorkLifeBalance (full-stack productivity platform),
+                            and Sports Bar Live Menu (real-time Socket.io pricing).
+                        </p>
                         <div class="timeline__tags">
                             <span class="tag">NestJS</span>
                             <span class="tag">Next.js</span>
@@ -506,6 +712,7 @@
                             <span class="tag">React Native</span>
                             <span class="tag">AWS Cognito</span>
                             <span class="tag">Node.js</span>
+                            <span class="tag">Socket.io</span>
                         </div>
                     </div>
                 </article>
@@ -515,9 +722,15 @@
                     <div class="timeline__content">
                         <h3 class="timeline__company">Transact Box</h3>
                         <p class="timeline__role">Full Stack Developer</p>
-                        <p class="timeline__location"><i class="fas fa-map-marker-alt" aria-hidden="true"></i> Mumbai, India</p>
+                        <p class="timeline__location">
+                            <i class="fas fa-map-marker-alt" aria-hidden="true"></i> Mumbai, India
+                        </p>
                         <time class="timeline__date">June 2022 – Dec 2022</time>
-                        <p class="timeline__desc">Delivered payment applications achieving a 15% efficiency gain. Integrated 2DS/3DS payment gateways improving processing speed by 30%. Built production-grade RESTful APIs with 100% JUnit/Mockito functional coverage.</p>
+                        <p class="timeline__desc">
+                            Delivered payment applications with a 15% efficiency gain. Integrated 2DS/3DS payment gateways
+                            improving processing speed by 30%. Built production-grade RESTful APIs with 100% JUnit/Mockito
+                            functional test coverage.
+                        </p>
                         <div class="timeline__tags">
                             <span class="tag">Java</span>
                             <span class="tag">Spring Boot</span>
@@ -532,11 +745,16 @@
                 <!-- TCS -->
                 <article class="timeline__item timeline__item--right" role="listitem">
                     <div class="timeline__content">
-                        <h3 class="timeline__company">Tata Consultancy Services</h3>
+                        <h3 class="timeline__company">Tata Consultancy Services (TCS)</h3>
                         <p class="timeline__role">Assistant System Engineer</p>
-                        <p class="timeline__location"><i class="fas fa-map-marker-alt" aria-hidden="true"></i> Mumbai, India</p>
+                        <p class="timeline__location">
+                            <i class="fas fa-map-marker-alt" aria-hidden="true"></i> Mumbai, India
+                        </p>
                         <time class="timeline__date">Nov 2020 – June 2022</time>
-                        <p class="timeline__desc">Developed RESTful APIs and enterprise web applications for large-scale clients. Configured SAML/Basic Auth for enterprise security and delivered infrastructure improvements boosting production reliability.</p>
+                        <p class="timeline__desc">
+                            Developed RESTful APIs and enterprise web applications for large-scale clients. Configured SAML/Basic Auth
+                            for enterprise security and delivered infrastructure improvements boosting production reliability.
+                        </p>
                         <div class="timeline__tags">
                             <span class="tag">Java</span>
                             <span class="tag">Spring Boot</span>
@@ -547,22 +765,14 @@
                     </div>
                 </article>
 
-                <!-- The Home Depot -->
-                <article class="timeline__item timeline__item--left" role="listitem">
-                    <div class="timeline__content">
-                        <h3 class="timeline__company">The Home Depot</h3>
-                        <p class="timeline__role">Lumber Associate · Part-Time</p>
-                        <p class="timeline__location"><i class="fas fa-map-marker-alt" aria-hidden="true"></i> Toronto, Canada</p>
-                        <time class="timeline__date">Apr 2023 – Present</time>
-                    </div>
-                </article>
-
                 <!-- Hackathon -->
-                <article class="timeline__item timeline__item--right" role="listitem">
+                <article class="timeline__item timeline__item--left" role="listitem">
                     <div class="timeline__content">
                         <h3 class="timeline__company">Hackathon – Hack LCIT 2023</h3>
                         <p class="timeline__role">Contributor · Google Developer Student Club</p>
-                        <p class="timeline__location"><i class="fas fa-map-marker-alt" aria-hidden="true"></i> Toronto, Canada</p>
+                        <p class="timeline__location">
+                            <i class="fas fa-map-marker-alt" aria-hidden="true"></i> Toronto, Canada
+                        </p>
                         <time class="timeline__date">March 2023</time>
                     </div>
                 </article>
@@ -570,24 +780,82 @@
             </div>
         </section>
 
-        <!-- Contact Section -->
+        <!-- ============================================================
+             CONTACT SECTION
+        ============================================================ -->
         <section class="contact" id="contact" aria-labelledby="contact-heading">
             <h2 class="section-heading" id="contact-heading">
-                <i class="fas fa-headset" aria-hidden="true"></i>
-                Get in <span class="highlight">Touch</span>
+                <i class="fas fa-satellite-dish" aria-hidden="true"></i>
+                Get in <span class="highlight-cyan">Touch</span>
             </h2>
+            <p class="section-subtitle">I'm actively looking for new roles. Drop me a message and I'll get back to you fast!</p>
 
             <div class="contact__container">
-                <div class="contact__image">
-                    <img src="https://t3.ftcdn.net/jpg/05/64/44/04/360_F_564440452_ksmphOzqeKvdMm2b7vHH1wDFMR5uG6Bu.jpg"
-                        alt="Contact illustration" loading="lazy">
+                <div class="contact__info">
+
+                    <!-- Email -->
+                    <div class="contact__info-card">
+                        <div class="contact__info-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <div class="contact__info-text">
+                            <span>Email</span>
+                            <a href="mailto:devansh981226@gmail.com">devansh981226@gmail.com</a>
+                        </div>
+                    </div>
+
+                    <!-- India (Primary) -->
+                    <div class="contact__info-card contact__info-card--primary">
+                        <div class="contact__info-icon contact__info-icon--india">
+                            <span style="font-size:2rem;">🇮🇳</span>
+                        </div>
+                        <div class="contact__info-text">
+                            <span>India <span class="contact__primary-tag">Current Base</span></span>
+                            <p>Mumbai, India</p>
+                        </div>
+                    </div>
+
+                    <!-- Canada (Secondary) -->
+                    <div class="contact__info-card">
+                        <div class="contact__info-icon contact__info-icon--canada">
+                            <span style="font-size:2rem;">🇨🇦</span>
+                        </div>
+                        <div class="contact__info-text">
+                            <span>Canada <span class="contact__secondary-tag">Work Permit · 2028</span></span>
+                            <p>Toronto, ON – M3J 1V6 · Can relocate anytime</p>
+                        </div>
+                    </div>
+
+                    <!-- Phone -->
+                    <div class="contact__info-card">
+                        <div class="contact__info-icon">
+                            <i class="fas fa-phone"></i>
+                        </div>
+                        <div class="contact__info-text">
+                            <span>Phone</span>
+                            <a href="tel:+917715976760">🇮🇳 +91 77159 76760</a>
+                            <a href="tel:+12268831761" style="margin-top:0.3rem;">🇨🇦 +1 (226) 883-1761</a>
+                        </div>
+                    </div>
+
+                    <!-- Resume note -->
+                    <div class="contact__info-card contact__info-card--resume">
+                        <div class="contact__info-icon contact__info-icon--resume">
+                            <i class="fas fa-file-lines"></i>
+                        </div>
+                        <div class="contact__info-text">
+                            <span>Resume</span>
+                            <p>Tailored for India · Canada · Remote — just ask!</p>
+                        </div>
+                    </div>
+
                 </div>
 
                 <form id="contact-form" class="contact__form" novalidate>
                     <div class="form-group">
                         <label for="name" class="visually-hidden">Your Name</label>
                         <div class="form-field">
-                            <input type="text" id="name" name="name" placeholder="Name" required autocomplete="name">
+                            <input type="text" id="name" name="name" placeholder="Your Name" required autocomplete="name">
                             <i class="fas fa-user" aria-hidden="true"></i>
                         </div>
                     </div>
@@ -595,8 +863,7 @@
                     <div class="form-group">
                         <label for="email" class="visually-hidden">Your Email</label>
                         <div class="form-field">
-                            <input type="email" id="email" name="email" placeholder="Email" required
-                                autocomplete="email">
+                            <input type="email" id="email" name="email" placeholder="Your Email" required autocomplete="email">
                             <i class="fas fa-envelope" aria-hidden="true"></i>
                         </div>
                     </div>
@@ -604,22 +871,22 @@
                     <div class="form-group">
                         <label for="phone" class="visually-hidden">Your Phone</label>
                         <div class="form-field">
-                            <input type="tel" id="phone" name="phone" placeholder="Phone" autocomplete="tel">
-                            <i class="fas fa-phone-alt" aria-hidden="true"></i>
+                            <input type="tel" id="phone" name="phone" placeholder="Phone (optional)" autocomplete="tel">
+                            <i class="fas fa-phone" aria-hidden="true"></i>
                         </div>
                     </div>
 
                     <div class="form-group">
                         <label for="message" class="visually-hidden">Your Message</label>
                         <div class="form-field form-field--textarea">
-                            <textarea id="message" name="message" placeholder="Message" required rows="5"></textarea>
+                            <textarea id="message" name="message" placeholder="Your Message – I'd love to hear about the role or project!" required rows="5"></textarea>
                             <i class="fas fa-comment-dots" aria-hidden="true"></i>
                         </div>
                     </div>
 
                     <div class="form-actions">
-                        <button type="submit" class="btn btn--primary">
-                            <span>Submit</span>
+                        <button type="submit" id="submit-btn" class="btn btn--primary">
+                            <span>Send Message</span>
                             <i class="fas fa-paper-plane" aria-hidden="true"></i>
                         </button>
                     </div>
@@ -632,68 +899,71 @@
     <footer class="footer" role="contentinfo">
         <div class="footer__grid">
             <div class="footer__about">
-                <h3>Devansh's Portfolio</h3>
-                <p>Thank you for visiting my personal portfolio website. Connect with me over socials.</p>
-                <p class="footer__tagline">Keep Rising 🚀</p>
+                <h3>Devansh Shah</h3>
+                <p>Full Stack Developer · Java · React · AWS · Open to Work Worldwide 🌍</p>
+                <p class="footer__tagline">Keep Building · Keep Rising 🚀</p>
             </div>
 
             <div class="footer__links">
                 <h3>Quick Links</h3>
                 <nav aria-label="Footer navigation">
                     <ul>
-                        <li><a href="#home"><i class="fas fa-chevron-circle-right" aria-hidden="true"></i> Home</a></li>
-                        <li><a href="#about"><i class="fas fa-chevron-circle-right" aria-hidden="true"></i> About</a>
-                        </li>
-                        <li><a href="#skills"><i class="fas fa-chevron-circle-right" aria-hidden="true"></i> Skills</a>
-                        </li>
-                        <li><a href="#education"><i class="fas fa-chevron-circle-right" aria-hidden="true"></i>
-                                Education</a></li>
-                        <li><a href="#work"><i class="fas fa-chevron-circle-right" aria-hidden="true"></i> Work</a></li>
-                        <li><a href="#experience"><i class="fas fa-chevron-circle-right" aria-hidden="true"></i>
-                                Experience</a></li>
+                        <li><a href="#home"><i class="fas fa-chevron-right" aria-hidden="true"></i> Home</a></li>
+                        <li><a href="#about"><i class="fas fa-chevron-right" aria-hidden="true"></i> About</a></li>
+                        <li><a href="#skills"><i class="fas fa-chevron-right" aria-hidden="true"></i> Skills</a></li>
+                        <li><a href="#education"><i class="fas fa-chevron-right" aria-hidden="true"></i> Education</a></li>
+                        <li><a href="#work"><i class="fas fa-chevron-right" aria-hidden="true"></i> Projects</a></li>
+                        <li><a href="#experience"><i class="fas fa-chevron-right" aria-hidden="true"></i> Experience</a></li>
+                        <li><a href="#contact"><i class="fas fa-chevron-right" aria-hidden="true"></i> Contact</a></li>
                     </ul>
                 </nav>
             </div>
 
             <div class="footer__contact">
-                <h3>Contact Info</h3>
+                <h3>Contact</h3>
                 <address>
-                    <p><i class="fas fa-phone" aria-hidden="true"></i> +1 (226) 883-1761</p>
-                    <p><i class="fas fa-envelope" aria-hidden="true"></i> <a
-                            href="mailto:devansh981226@gmail.com">devansh981226@gmail.com</a></p>
-                    <p><i class="fas fa-map-marked-alt" aria-hidden="true"></i> Toronto, Canada - M3J 1V6</p>
+                    <p><i class="fas fa-phone" aria-hidden="true"></i>
+                        <span>🇮🇳 +91 77159 76760 &nbsp;·&nbsp; 🇨🇦 +1 (226) 883-1761</span>
+                    </p>
+                    <p><i class="fas fa-envelope" aria-hidden="true"></i>
+                        <a href="mailto:devansh981226@gmail.com">devansh981226@gmail.com</a>
+                    </p>
+                    <p><i class="fas fa-map-marked-alt" aria-hidden="true"></i> Toronto, Canada – M3J 1V6</p>
                 </address>
 
                 <ul class="footer__social" aria-label="Social media">
                     <li><a href="https://www.linkedin.com/in/devansh-shah-89941816a/" target="_blank"
-                            rel="noopener noreferrer" aria-label="LinkedIn"><i class="fab fa-linkedin"
-                                aria-hidden="true"></i></a></li>
+                            rel="noopener noreferrer" aria-label="LinkedIn">
+                            <i class="fab fa-linkedin" aria-hidden="true"></i>
+                        </a></li>
                     <li><a href="https://github.com/Devansh26" target="_blank" rel="noopener noreferrer"
-                            aria-label="GitHub"><i class="fab fa-github" aria-hidden="true"></i></a></li>
-                    <li><a href="mailto:devansh981226@gmail.com" aria-label="Email"><i class="fas fa-envelope"
-                                aria-hidden="true"></i></a></li>
-                    <li><a href="https://twitter.com/" target="_blank" rel="noopener noreferrer" aria-label="Twitter"><i
-                                class="fab fa-twitter" aria-hidden="true"></i></a></li>
+                            aria-label="GitHub">
+                            <i class="fab fa-github" aria-hidden="true"></i>
+                        </a></li>
+                    <li><a href="mailto:devansh981226@gmail.com" aria-label="Email">
+                            <i class="fas fa-envelope" aria-hidden="true"></i>
+                        </a></li>
+                    <li><a href="https://twitter.com/" target="_blank" rel="noopener noreferrer" aria-label="Twitter">
+                            <i class="fab fa-twitter" aria-hidden="true"></i>
+                        </a></li>
                 </ul>
             </div>
         </div>
 
         <div class="footer__bottom">
-            <p>Designed with <i class="fas fa-heart pulse" aria-label="love"></i> by <a
-                    href="https://www.linkedin.com/in/devansh-shah-89941816a/" target="_blank"
-                    rel="noopener noreferrer">Devansh Shah</a></p>
+            <p>Crafted with <i class="fas fa-heart pulse" aria-label="love"></i> &amp; ☕ by
+                <a href="https://www.linkedin.com/in/devansh-shah-89941816a/" target="_blank"
+                    rel="noopener noreferrer">Devansh Shah</a> · 2025
+            </p>
         </div>
     </footer>
 
-    <!-- Scroll to Top Button -->
+    <!-- Scroll to Top -->
     <a href="#home" id="scroll-top" class="scroll-top" aria-label="Scroll to top">
         <i class="fas fa-angle-up" aria-hidden="true"></i>
     </a>
 
     <!-- Scripts -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
-        integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
-        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.16/typed.umd.js"
         integrity="sha512-+2pW8xXU/rNr7VS+H62aqapfRpqFwnSQh9ap6THjsm41AxgA0MhFRtfrABS+Lx2KHJn82UOrnBKhjZOXpom2LQ=="
         crossorigin="anonymous" referrerpolicy="no-referrer"></script>
