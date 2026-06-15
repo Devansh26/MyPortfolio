@@ -89,7 +89,21 @@ const SKILLS_DATA = [
     // Tools
     { name: 'Postman',      icon: 'https://img.icons8.com/?size=48&id=EPbEfEa7o8CB&format=png', category: 'tools' },
     { name: 'SonarQube',    icon: 'https://img.icons8.com/?size=48&id=oROcPah5ues6&format=png', category: 'tools' },
-    { name: 'Jira',         icon: 'https://img.icons8.com/color/48/jira.png', category: 'tools' }
+    { name: 'Jira',         icon: 'https://img.icons8.com/color/48/jira.png', category: 'tools' },
+
+    // AI & ML
+    { name: 'OpenAI',         icon: 'https://cdn.simpleicons.org/openai/00d4ff',        category: 'ai' },
+    { name: 'Claude AI',      icon: 'https://cdn.simpleicons.org/anthropic/00d4ff',     category: 'ai' },
+    { name: 'LangChain',      icon: 'https://cdn.simpleicons.org/langchain/00d4ff',     category: 'ai' },
+    { name: 'Hugging Face',   icon: 'https://cdn.simpleicons.org/huggingface/ffbd59',   category: 'ai' },
+    { name: 'TensorFlow',     icon: 'https://img.icons8.com/color/48/tensorflow.png',   category: 'ai' },
+    { name: 'PyTorch',        icon: 'https://cdn.simpleicons.org/pytorch/ee4c2c',       category: 'ai' },
+    { name: 'GitHub Copilot', icon: 'https://cdn.simpleicons.org/githubcopilot/ffffff', category: 'ai' },
+    { name: 'Ollama',         icon: 'https://cdn.simpleicons.org/ollama/ffffff',         category: 'ai' },
+    { name: 'scikit-learn',   icon: 'https://cdn.simpleicons.org/scikitlearn/f7931e',   category: 'ai' },
+    { name: 'Pinecone',       icon: 'https://cdn.simpleicons.org/pinecone/00d4ff',      category: 'ai' },
+    { name: 'LlamaIndex',     icon: 'https://cdn.simpleicons.org/llamaindex/7c3aed',    category: 'ai' },
+    { name: 'RAG / Vector DB',icon: 'https://img.icons8.com/color/48/database.png',     category: 'ai' },
 ];
 
 /* ==========================================================================
