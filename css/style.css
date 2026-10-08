@@ -939,13 +939,13 @@ section {
     border-radius: var(--radius-lg);
     border: 1px solid var(--glass-border);
     box-shadow: var(--shadow-card);
-    filter: grayscale(20%);
+    filter: none;
     transition: filter var(--transition-base), box-shadow var(--transition-base);
     cursor: pointer;
 }
 
 .about__image img:hover {
-    filter: grayscale(0%);
+    filter: none;
     box-shadow: 0 0 50px rgba(0, 212, 255, 0.25);
 }
 
